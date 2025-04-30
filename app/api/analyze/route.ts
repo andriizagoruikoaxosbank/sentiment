@@ -63,7 +63,7 @@ export async function POST(request: NextRequest) {
       });
       
       const response = await openai.chat.completions.create({
-        model: 'gpt-3.5-turbo', // Use a stable model
+        model: 'gpt-4.1', // Use a stable model
         messages: [
           {
             role: 'system',
